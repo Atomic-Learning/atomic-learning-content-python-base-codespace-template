@@ -1,0 +1,19 @@
+{
+  "name": "Atomic-Learning Python Base Codespace",
+  "image": "ghcr.io/atomic-learning/codespace_image_python_base:latest",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "remoteUser": "vscode",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "ms-python.black-formatter",
+        "ms-python.debugpy"
+      ]
+    }
+  },
+  "postCreateCommand": "[ -f requirements.txt ] && pip install -r requirements.txt --upgrade-strategy only-if-needed || true",
+  "forwardPorts": [8888]
+}
