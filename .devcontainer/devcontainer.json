@@ -15,14 +15,7 @@
         "github.copilot.enable": {
           "*": false
         },
-        "github.copilot.editor.enableAutoCompletions": false,
-        "github.copilot.editor.enableCodeActions": false,
-        "github.copilot.chat.enable": false,
-        "github.copilot.inlineSuggest.enable": false,
-        "chat.editor.showStarterPrompts": false,
-        "github.copilot.chat.welcomeMessage": "never",
-        "github.copilot.renameSuggestions.enabled": false,
-        "chat.commandCenter.enabled": false
+        "github.copilot.editor.enableAutoCompletions": false
       }
     }
   },
