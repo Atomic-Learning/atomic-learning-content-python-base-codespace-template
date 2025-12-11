@@ -11,7 +11,13 @@
         "ms-toolsai.jupyter",
         "ms-python.black-formatter",
         "ms-python.debugpy"
-      ]
+      ],
+      "settings": {
+        "github.copilot.enable": {
+          "*": false
+        },
+        "github.copilot.editor.enableAutoCompletions": false
+      }
     }
   },
   "postCreateCommand": "[ -f requirements.txt ] && pip install -r requirements.txt --upgrade-strategy only-if-needed || true",
