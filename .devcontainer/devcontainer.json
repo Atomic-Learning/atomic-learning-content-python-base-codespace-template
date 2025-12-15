@@ -17,6 +17,10 @@
         },
         "github.copilot.editor.enableAutoCompletions": false
       }
+    },
+    "codespaces": {
+      "openFiles": [
+      ]
     }
   },
   "postCreateCommand": "[ -f requirements.txt ] && pip install -r requirements.txt --upgrade-strategy only-if-needed || true",
